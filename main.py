@@ -44,4 +44,5 @@ async def log(interaction: discord.Interaction, user_id: str):
     await interaction.followup.send(f"{user.display_name} has posted **{count}** messages in {channel.mention}.")
 
 # Run the bot
+import os
 bot.run(os.getenv("MTM3NzUxNDkzMjQ3OTcyNTY1MA.G7srHl.seyBporB5YncCjIGC0tAqZxgY-TnOLxh32jxgs"))
